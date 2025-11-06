@@ -1,4 +1,3 @@
-version: "3"
 services:
   myapp:
     build: .
@@ -6,3 +5,9 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
+    networks:
+      - ponger-app_ponger-network
+
+networks:
+  ponger-app_ponger-network:
+    external: true
