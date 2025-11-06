@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
     const messages = [
-        "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Random</title></head><body><h1>Tobi lugter af nums! del 3</h1></body></html>",
+        "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Random</title></head><body><h1>Tobi lugter af nums! del 2</h1></body></html>",
         "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Random</title></head><body><h1>Welcome to Ponger</h1></body></html>"
     ];
 
